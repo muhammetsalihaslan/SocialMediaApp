@@ -13,7 +13,7 @@ const Navbar = () => {
       </div>
       <div className="navbarCenter">
          <div className="searchbar">
-          <SearchIcon />
+          <SearchIcon className="searchicon"/>
           <input placeholder="Search" className='searchInput' />
          </div>
       </div>
@@ -37,7 +37,7 @@ const Navbar = () => {
           <span className="navbarIconBadge">5</span>
         </div>
       </div>
-      <img src="/assets/pp/1.jpeg" alt="" className="navbarImg" />
+      <img src=".././assets/profilp/1.jpeg" alt="" className="navbarImg" />
       </div>
     </div>
   )
