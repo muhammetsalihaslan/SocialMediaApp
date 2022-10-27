@@ -3,10 +3,10 @@ import "./rightbar.css"
 
 const Rightbar = () => {
     return(
-        <div>
+        <div className="rightbar">
             Rightbar
         </div>
     )
 }
 
-export default Rightbar()
+export default Rightbar;
