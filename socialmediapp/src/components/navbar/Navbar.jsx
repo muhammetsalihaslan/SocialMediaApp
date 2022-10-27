@@ -37,7 +37,7 @@ const Navbar = () => {
           <span className="navbarIconBadge">5</span>
         </div>
       </div>
-      <img src="/assets/person/1.jpeg" alt="" className="navbarImg" />
+      <img src="/assets/person/1.jpeg" alt="" className="navbarImg"/>
       </div>
     </div>
   )
