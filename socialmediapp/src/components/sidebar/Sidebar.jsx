@@ -53,7 +53,7 @@ const Sidebar = () => {
                 </li>
             </ul>
             <button className="sidebarButton">Show More</button>
-            <hr />
+            <hr className="sidebarHr" />
             <ul className="sidebarFriendList">
                 <li className="sidebarFriend">
                     <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
