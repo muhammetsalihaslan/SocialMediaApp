@@ -60,6 +60,56 @@ const Sidebar = () => {
                     <span className="sidebarFriendName">Mahmut</span>
 
                 </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
+                    <span className="sidebarFriendName">Mahmut</span>
+
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
+                    <span className="sidebarFriendName">Mahmut</span>
+
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
+                    <span className="sidebarFriendName">Mahmut</span>
+
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
+                    <span className="sidebarFriendName">Mahmut</span>
+
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
+                    <span className="sidebarFriendName">Mahmut</span>
+
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
+                    <span className="sidebarFriendName">Mahmut</span>
+
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
+                    <span className="sidebarFriendName">Mahmut</span>
+
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
+                    <span className="sidebarFriendName">Mahmut</span>
+
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
+                    <span className="sidebarFriendName">Mahmut</span>
+
+                </li>
+                <li className="sidebarFriend">
+                    <img className="sidebarFriendImg" src="assets/person/2.jpeg" alt="" />
+                    <span className="sidebarFriendName">Mahmut</span>
+
+                </li>
 
             </ul>
             
@@ -69,4 +119,4 @@ const Sidebar = () => {
   )
 }
 
-export default Sidebar
+export default Sidebar;
