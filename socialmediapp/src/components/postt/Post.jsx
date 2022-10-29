@@ -4,7 +4,8 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import ThumbUpAltIcon from '@mui/icons-material/ThumbUpAlt';
 
-const Post = () => {
+const Post = ({post}) => {
+  console.log(post)
   return (
     <div className="post">
       <div className="postWrapper">
