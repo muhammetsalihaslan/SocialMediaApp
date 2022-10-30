@@ -14,7 +14,16 @@ const Profile = () => {
      <Sidebar/>
      <div className="profileRight">
         <div className="profileRightTop">
-            <img className="profileCoverImg" src="assets/share/4.jpeg" alt="" />
+            <div className="profileCover">
+
+            <img className="profileCoverImg" src="assets/share/11.jpeg" alt="" />
+            <img className="profileUserImg" src="assets/person/1.jpeg" alt="" />
+            
+            </div>
+            <div className="profileInfo">
+                <h4 className="profileInfoName">Salih ASLAN</h4>
+                <span className="profileInfoDesc">Hello its my page</span>
+            </div>
         </div>
         <div className="profileRightBottom">
         <Feed/>
