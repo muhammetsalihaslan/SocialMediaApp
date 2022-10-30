@@ -38,6 +38,14 @@
 
 }
 
+.profileInfoName{
+    font-size: 24px;
+}
+
+.profileInfoDesc{
+    font-weight: 300;
+}
+
 .profileRightBottom{
     display: flex;
 }

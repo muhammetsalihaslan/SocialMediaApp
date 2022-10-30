@@ -40,3 +40,20 @@
 
 }
 
+.rightbarTitle{
+    font-size: 18;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.rightbarInfo{
+    margin-bottom: 30px;
+}
+
+.rightbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 5px;
+}
+
