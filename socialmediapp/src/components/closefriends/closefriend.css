@@ -1,4 +1,4 @@
-.sidebarFriends{
+.closeFriends{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
@@ -7,14 +7,14 @@
 
 
 
-.sidebarFriend {
+.closeFriend {
    display: flex;
    flex-direction: column;
    margin-bottom: 20px;
    cursor: pointer;
 }
 
-.sidebarFriendImg {
+.closeFriendImg {
     width: 100px;
     height: 100px;
     border-radius: 5%;
