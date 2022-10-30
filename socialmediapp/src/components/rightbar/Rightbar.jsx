@@ -1,6 +1,7 @@
 import "./rightbar.css"
 import { Users } from "../../data"
 import Online from "../online/Online";
+import Closefriend from '../closefriends/Closefriend'
 
 
 const Rightbar = ({profile}) => {
@@ -53,8 +54,9 @@ const Rightbar = ({profile}) => {
             <h4 className="rightbarTitle">User Friend</h4>
             <div className="rightbarFollowings">
                 <div className="rightbarFollowing">
-                    <img src="assets/person/1.jpeg" alt="" className="rightbarFollowingImg" />
-                    <span className="rightbarFollowingName">Mesut Mesudiyeli</span>
+                    {Users.map(u => (
+                            <Closefriend key={u.id} user={u}/>
+                        ))}
                 </div>
             </div>
             </>
@@ -63,6 +65,7 @@ const Rightbar = ({profile}) => {
     return(
         <div className="rightbar">
             <div className="rightbarWrapper">
+               
                <ProfileRightbar/>
             </div>
             

@@ -3,10 +3,15 @@ import "./closefriend.css";
 
 const Closefriend = ({user}) => {
   return (
-     <li className="sidebarFriend">
-        
+     <li className="sidebarFriends">
+
+       <div className="sidebarFriend">
+
         <img className="sidebarFriendImg" src={user.profilePicture} alt="" />
         <span className="sidebarFriendName">{user.username}</span>
+
+       </div>
+        
 
      </li>
   )
