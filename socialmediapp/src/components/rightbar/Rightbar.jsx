@@ -1,5 +1,6 @@
 import "./rightbar.css"
 import { Users } from "../../data"
+import Online from "../online/Online";
 
 
 const Rightbar = () => {
@@ -13,12 +14,13 @@ const Rightbar = () => {
                 <img className="rightbarAd"  src="assets/share/9.jpeg" alt="" />
                 <h4 className="rightbarTitle">Online Friends</h4>
                 <ul className="rightbarFriendList">
-                    <li className="rightbarFriend">
-
+                   
+                        {Users.map(u => (
+                            <Online key={u.id} user={u}/>
+                        ))}
                     
                         
-                    </li>
-                   
+                    
                 </ul>
             </div>
             
