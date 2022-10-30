@@ -38,15 +38,15 @@ const Rightbar = ({profile}) => {
             <div className="rightbarInfo">
                 <div className="rightbarInfoItem">
                     <span className="rightbarInfoKey">City:</span>
-                    <span className="rightbarInfoKey">Mancester</span>
+                    <span className="rightbarInfoValue">Mancester</span>
                 </div>
                 <div className="rightbarInfoItem">
                     <span className="rightbarInfoKey">From:</span>
-                    <span className="rightbarInfoKey">Monaco</span>
+                    <span className="rightbarInfoValue">Monaco</span>
                 </div>
                 <div className="rightbarInfoItem">
                     <span className="rightbarInfoKey">Relationship:</span>
-                    <span className="rightbarInfoKey">Single</span>
+                    <span className="rightbarInfoValue">Single</span>
                 </div>
             </div>
             
