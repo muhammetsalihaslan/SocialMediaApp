@@ -53,7 +53,7 @@ const Rightbar = ({profile}) => {
             
             <h4 className="rightbarTitle">User Friend</h4>
             <div className="rightbarFollowings">
-                <div className="rightbarFollowing">
+                 <div className="rightbarFollowing">
                     {Users.map(u => (
                             <Closefriend key={u.id} user={u}/>
                         ))}

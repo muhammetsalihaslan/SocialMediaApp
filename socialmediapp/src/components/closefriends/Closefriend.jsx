@@ -1,22 +1,10 @@
-import React from 'react'
 import "./closefriend.css";
 
-const Closefriend = ({user}) => {
+export default function CloseFriend({user}) {
   return (
-     
-     <>
-     
-     <img className="closeFriendImg" src={user.profilePicture} alt="" />
-     <span className="closeFriendName">{user.username}</span>
-     
-     
-     </>
-       
-
-  )
-       
-
-     
+    <li className="sidebarFriend">
+      <img className="sidebarFriendImg" src={user.profilePicture} alt="" />
+      <span className="sidebarFriendName">{user.username}</span>
+    </li>
+  );
 }
-
-export default Closefriend
